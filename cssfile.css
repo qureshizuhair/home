@@ -1,0 +1,176 @@
+/* Header/Logo Title */
+
+* {
+  box-sizing: border-box;
+}
+
+.column 
+{
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row:after 
+{
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/*How Content Will be Styled*/
+body
+{
+	background-image: url(LightBlue.jpg);
+	font-family: Gil-Sans,sans-serif;
+}
+
+.navbar-custom 
+{ 
+	background-color: red !important; 
+}
+
+header 
+{ padding: 60px;
+  text-align: center;
+  background: #3234a8;
+  color: white;
+  font-size: 30px;
+}
+
+.footer 
+{
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: center;
+   height: 200px;
+}
+
+.footer p
+{
+	font-size: 20px;
+    font-family: Thesans,serif;
+}
+
+/*Reg Blue Link Color Interferes with Background*/
+a
+{
+	color: hotpink;
+}
+
+ol li
+{
+	list-style-type: upper-roman;
+}
+
+hr
+{
+	border: 2px solid black;
+}
+
+/*For Navbar*/
+
+ul
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  color: black;
+  background-color: #42daf5;
+}
+
+li 
+{
+  float: left;
+}
+
+li a 
+{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover 
+{
+  background-color: #111;
+}
+
+.Organizations
+{
+	list-style-type: none;
+	
+}
+
+.hello
+{
+	display: inline-block;
+	margin: 20px 15px;
+}
+p
+{
+	font-family: Gil-Sans,calibri,cursive;
+	font-size: 18px;
+	text-align: left;
+	width: 90%;
+	margin: 2%;
+}
+h1
+{
+	font-family: Gil-Sans,arial;
+	font-size: 30px;
+	text-align: left;
+	text-decoration: underline;
+	margin: 2%;
+}
+h2
+{
+	font-family: Georgia,serif;
+	font-size: 25px;
+	text-align: left;
+	text-decoration: underline;
+	margin: 2%;
+}
+
+h3
+{
+	font-family: calibri;
+	font-size: 20px;
+	margin: 2%;
+}
+
+table 
+{
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+	width: 90%;
+}
+
+td, th 
+{
+  border: 3px solid #000000;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) 
+{
+  background-color: #dddddd;
+}
+
+/*Images With Border, Pleasant Look*/
+img 
+{
+  display: inline-block;
+  border:2px solid #021a40;
+  float: right;
+  margin-left: 20px;
+}
+
+}
